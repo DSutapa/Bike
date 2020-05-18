@@ -98,4 +98,68 @@ body{
   .home-cards a:hover i {
     margin-left: 10px;
   }
-  
+  /*Sign In*/
+  /* .sign-in-body{
+
+  } */
+  .custom-checkbox{
+      display:block;
+      position: relative;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 15px;
+      user-select: none;
+  }
+  /* Hide the browser's default checkbox */
+  .custom-checkbox input{
+      width: 0px;
+      height: 0px;
+      opacity:0;
+      cursor: pointer;
+     position: absolute;
+  }
+  /* Create a custom checkbox */
+  .checkmark{
+      position: absolute;
+      width:20px;
+      height: 20px;
+      background-color:#eee;
+  }
+  .custom-checkbox:hover input ~ .checkmark{
+      background-color: #ccc;
+  }
+  .custom-checkbox input:checked ~ .checkmark{
+      background-color:blue;
+  }
+  /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .custom-checkbox a{
+      
+      padding-bottom: 2px;
+      font-weight: lighter;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .custom-checkbox a:hover{
+      border-bottom: 2px solid blue;
+  }
