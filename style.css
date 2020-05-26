@@ -4,16 +4,16 @@
     padding: 0;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: black;
     line-height: 1.5;
     }
     a{
         color:black;
-        font-weight: bold;
         text-decoration: none;
     }
+    
     ul{
         list-style: none;
     }
@@ -98,103 +98,16 @@ body{
   .home-cards a:hover i {
     margin-left: 10px;
   }
-  /*Sign In*/
-  .sign-body{
-    text-align: center;
-    justify-content: center;
-}
-.sign-container{
   
-      background-color: #fff;
-      border-radius: 10px;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-              0 10px 10px rgba(0,0,0,0.22);
-      position: relative;
-      overflow: hidden;
-      width: 768px;
-      max-width: 100%;
-      min-height: 480px;
-  }
-  h2{
-      text-align: center;
-  }
-  .sign-container a{
-      text-decoration: none;
-      
-  }
-  .sign-container a:hover{
-      border-bottom: 2px solid blue;
-  }
-  .form-container {
-      position: absolute;
-      top: 0;
-      height: 100%;
-      transition: all 0.6s ease-in-out;
-  }
+  /*Sign In Sign Up*/
+  /* .sign-container{
+   width: auto;
+   height:100%;
+   background-image: url('./bImages/sign-background.jpg');
+  } */
+  
+
+  
  
-
- .checkbox-container{
-     display: block;
-     position: relative;
-     font-size: 15px;
-     cursor: pointer;
-     
-     top: 0;
-     left: 0;
-     padding-left: 30px;
-     user-select: none;
-
- }
- .checkbox-container input{
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
- }
-.checkmark{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color:#eee;
-  }
-  .checkbox-container:hover input~.checkmark{
-      background-color: #ccc;
-  }
-  .checkbox-container input:checked ~ .checkmark{
-      background-color: darkcyan;
-  }
-  
-  .checkmark:after {
-      content: "";
-      position: absolute;
-      display: none;
-    }
-    .checkbox-container input:checked ~ .checkmark:after {
-      display: block;
-    }
-    .checkbox-container .checkmark:after {
-      left: 9px;
-      top: 5px;
-      width: 5px;
-      height: 10px;
-      border: solid white;
-      border-width: 0 3px 3px 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-    
-
-
-
-
-  
-  
-  
-  
-  
   
   

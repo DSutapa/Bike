@@ -1,0 +1,80 @@
+body{
+    background: url('./bImages/sign-background.jpg') no-repeat center center/cover;
+    background-size: cover ;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.sign-up-form{
+    width:300px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.3);
+   background: white;
+   padding: 10px;
+   margin: 8% auto 0;
+   text-align: center;
+    
+ }
+ img{
+     width: 70px;
+     margin-top: -50px;
+     border-radius: 50%;
+ }
+ .sign-up-form h1{
+     color: #3333ff;
+     margin-top: auto;
+     margin-bottom: 20px;
+ }
+ .input-box{
+   
+    padding: 10px;
+    margin:4px 0;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e8e8ee;
+
+}
+input[type=text]:focus{
+    border-bottom: solid 2px  #3333ff;
+}
+input[type=email]:focus{
+    border-bottom: solid 2px  #3333ff;
+}
+input[type=password]:focus{
+    border-bottom: solid 2px  #3333ff;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin:5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-btn{
+    background-color:  #3333ff;
+}
+.sign-btn :hover{
+    background-color: white;
+}
+hr{
+    margin-top:30px;
+    width: 80%;
+}
+.or{
+    background:#fff;
+    width: 30px;
+    margin: -19px auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid black;
+}
+
+
